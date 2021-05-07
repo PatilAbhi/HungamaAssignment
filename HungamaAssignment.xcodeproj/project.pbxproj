@@ -3,19 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF40255661979874A718063D /* Pods_HungamaAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D342B009003F2EB462514 /* Pods_HungamaAssignment.framework */; };
 		F48D790F26442CB400CA988C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D790E26442CB400CA988C /* AppDelegate.swift */; };
 		F48D791126442CB400CA988C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D791026442CB400CA988C /* SceneDelegate.swift */; };
 		F48D791326442CB400CA988C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D791226442CB400CA988C /* ViewController.swift */; };
 		F48D791626442CB400CA988C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48D791426442CB400CA988C /* Main.storyboard */; };
 		F48D791826442CB600CA988C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48D791726442CB600CA988C /* Assets.xcassets */; };
 		F48D791B26442CB600CA988C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48D791926442CB600CA988C /* LaunchScreen.storyboard */; };
+		F48D792626442CF200CA988C /* DesignCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D792326442CF200CA988C /* DesignCustomButton.swift */; };
+		F48D792726442CF200CA988C /* DesignCustomImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D792426442CF200CA988C /* DesignCustomImages.swift */; };
+		F48D792826442CF200CA988C /* DesignCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D792526442CF200CA988C /* DesignCustomView.swift */; };
+		F48D792B26442D4600CA988C /* DashboardPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D792A26442D4600CA988C /* DashboardPageViewController.swift */; };
+		F48D792E26442F5B00CA988C /* ServerCallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D792D26442F5B00CA988C /* ServerCallManager.swift */; };
+		F48D79312645261E00CA988C /* NowPlayingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D79302645261E00CA988C /* NowPlayingModel.swift */; };
+		F48D79342645269900CA988C /* BaseURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D79332645269900CA988C /* BaseURL.swift */; };
+		F48D79362645578100CA988C /* NowPlayingMovieListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D79352645578100CA988C /* NowPlayingMovieListTableViewCell.swift */; };
+		F48D793A26455A2A00CA988C /* MovieCastCrew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D793726455A2A00CA988C /* MovieCastCrew.swift */; };
+		F48D793B26455A2A00CA988C /* MovieSimilarMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D793826455A2A00CA988C /* MovieSimilarMovies.swift */; };
+		F48D793C26455A2A00CA988C /* MovieSynopsis.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D793926455A2A00CA988C /* MovieSynopsis.swift */; };
+		F48D793F264561B900CA988C /* MovieDetailsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D793E264561B900CA988C /* MovieDetailsPageViewController.swift */; };
+		F48D79412645786300CA988C /* CastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D79402645786300CA988C /* CastCollectionViewCell.swift */; };
+		F48D79432645787600CA988C /* CrewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D79422645787600CA988C /* CrewCollectionViewCell.swift */; };
+		F48D79452645788700CA988C /* SimilarMovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D79442645788700CA988C /* SimilarMovieCollectionViewCell.swift */; };
+		F48D794726458D8D00CA988C /* RecentlySearchedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D794626458D8D00CA988C /* RecentlySearchedTableViewCell.swift */; };
+		F48D794926458E1D00CA988C /* SearchedMovieArrayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D794826458E1D00CA988C /* SearchedMovieArrayList.swift */; };
+		F48D794B2645932200CA988C /* MovieVideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D794A2645932200CA988C /* MovieVideoModel.swift */; };
+		F48D794E2645950F00CA988C /* VideoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D794D2645950F00CA988C /* VideoPageViewController.swift */; };
+		F48D79512645964700CA988C /* VideoMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D79502645964700CA988C /* VideoMTableViewCell.swift */; };
+		F48D7954264599C900CA988C /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48D7953264599C900CA988C /* VideoPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1784AB4A4D09E427EBD6656A /* Pods-HungamaAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HungamaAssignment.debug.xcconfig"; path = "Target Support Files/Pods-HungamaAssignment/Pods-HungamaAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		3B5D342B009003F2EB462514 /* Pods_HungamaAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HungamaAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E03536C334F7B08FC786FAB0 /* Pods-HungamaAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HungamaAssignment.release.xcconfig"; path = "Target Support Files/Pods-HungamaAssignment/Pods-HungamaAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		F48D790B26442CB400CA988C /* HungamaAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HungamaAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48D790E26442CB400CA988C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F48D791026442CB400CA988C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +49,27 @@
 		F48D791726442CB600CA988C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F48D791A26442CB600CA988C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48D791C26442CB600CA988C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48D792326442CF200CA988C /* DesignCustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignCustomButton.swift; sourceTree = "<group>"; };
+		F48D792426442CF200CA988C /* DesignCustomImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignCustomImages.swift; sourceTree = "<group>"; };
+		F48D792526442CF200CA988C /* DesignCustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignCustomView.swift; sourceTree = "<group>"; };
+		F48D792A26442D4600CA988C /* DashboardPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPageViewController.swift; sourceTree = "<group>"; };
+		F48D792D26442F5B00CA988C /* ServerCallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerCallManager.swift; sourceTree = "<group>"; };
+		F48D79302645261E00CA988C /* NowPlayingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingModel.swift; sourceTree = "<group>"; };
+		F48D79332645269900CA988C /* BaseURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseURL.swift; sourceTree = "<group>"; };
+		F48D79352645578100CA988C /* NowPlayingMovieListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingMovieListTableViewCell.swift; sourceTree = "<group>"; };
+		F48D793726455A2A00CA988C /* MovieCastCrew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCastCrew.swift; sourceTree = "<group>"; };
+		F48D793826455A2A00CA988C /* MovieSimilarMovies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSimilarMovies.swift; sourceTree = "<group>"; };
+		F48D793926455A2A00CA988C /* MovieSynopsis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieSynopsis.swift; sourceTree = "<group>"; };
+		F48D793E264561B900CA988C /* MovieDetailsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsPageViewController.swift; sourceTree = "<group>"; };
+		F48D79402645786300CA988C /* CastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastCollectionViewCell.swift; sourceTree = "<group>"; };
+		F48D79422645787600CA988C /* CrewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewCollectionViewCell.swift; sourceTree = "<group>"; };
+		F48D79442645788700CA988C /* SimilarMovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarMovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		F48D794626458D8D00CA988C /* RecentlySearchedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentlySearchedTableViewCell.swift; sourceTree = "<group>"; };
+		F48D794826458E1D00CA988C /* SearchedMovieArrayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchedMovieArrayList.swift; sourceTree = "<group>"; };
+		F48D794A2645932200CA988C /* MovieVideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVideoModel.swift; sourceTree = "<group>"; };
+		F48D794D2645950F00CA988C /* VideoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPageViewController.swift; sourceTree = "<group>"; };
+		F48D79502645964700CA988C /* VideoMTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMTableViewCell.swift; sourceTree = "<group>"; };
+		F48D7953264599C900CA988C /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF40255661979874A718063D /* Pods_HungamaAssignment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		012D7DC0D18A8F26DAB04E4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1784AB4A4D09E427EBD6656A /* Pods-HungamaAssignment.debug.xcconfig */,
+				E03536C334F7B08FC786FAB0 /* Pods-HungamaAssignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2EA78482542B0B4D7F3357C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D342B009003F2EB462514 /* Pods_HungamaAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F48D790226442CB400CA988C = {
 			isa = PBXGroup;
 			children = (
 				F48D790D26442CB400CA988C /* HungamaAssignment */,
 				F48D790C26442CB400CA988C /* Products */,
+				012D7DC0D18A8F26DAB04E4F /* Pods */,
+				2EA78482542B0B4D7F3357C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +122,14 @@
 		F48D790D26442CB400CA988C /* HungamaAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				F48D7952264599AE00CA988C /* Video Player */,
+				F48D794C264594FB00CA988C /* Video Page */,
+				F48D793D264561A000CA988C /* Movie Details Page */,
+				F48D79322645268D00CA988C /* Base URL Class */,
+				F48D792F2645260700CA988C /* Model Class */,
+				F48D792C26442F4700CA988C /* Server Call */,
+				F48D792926442D2600CA988C /* Home page */,
+				F48D792226442CF200CA988C /* Custom Designs */,
 				F48D790E26442CB400CA988C /* AppDelegate.swift */,
 				F48D791026442CB400CA988C /* SceneDelegate.swift */,
 				F48D791226442CB400CA988C /* ViewController.swift */,
@@ -67,6 +141,83 @@
 			path = HungamaAssignment;
 			sourceTree = "<group>";
 		};
+		F48D792226442CF200CA988C /* Custom Designs */ = {
+			isa = PBXGroup;
+			children = (
+				F48D792326442CF200CA988C /* DesignCustomButton.swift */,
+				F48D792426442CF200CA988C /* DesignCustomImages.swift */,
+				F48D792526442CF200CA988C /* DesignCustomView.swift */,
+			);
+			path = "Custom Designs";
+			sourceTree = "<group>";
+		};
+		F48D792926442D2600CA988C /* Home page */ = {
+			isa = PBXGroup;
+			children = (
+				F48D792A26442D4600CA988C /* DashboardPageViewController.swift */,
+				F48D79352645578100CA988C /* NowPlayingMovieListTableViewCell.swift */,
+				F48D794626458D8D00CA988C /* RecentlySearchedTableViewCell.swift */,
+			);
+			path = "Home page";
+			sourceTree = "<group>";
+		};
+		F48D792C26442F4700CA988C /* Server Call */ = {
+			isa = PBXGroup;
+			children = (
+				F48D792D26442F5B00CA988C /* ServerCallManager.swift */,
+			);
+			path = "Server Call";
+			sourceTree = "<group>";
+		};
+		F48D792F2645260700CA988C /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				F48D793726455A2A00CA988C /* MovieCastCrew.swift */,
+				F48D793826455A2A00CA988C /* MovieSimilarMovies.swift */,
+				F48D793926455A2A00CA988C /* MovieSynopsis.swift */,
+				F48D79302645261E00CA988C /* NowPlayingModel.swift */,
+				F48D794826458E1D00CA988C /* SearchedMovieArrayList.swift */,
+				F48D794A2645932200CA988C /* MovieVideoModel.swift */,
+			);
+			path = "Model Class";
+			sourceTree = "<group>";
+		};
+		F48D79322645268D00CA988C /* Base URL Class */ = {
+			isa = PBXGroup;
+			children = (
+				F48D79332645269900CA988C /* BaseURL.swift */,
+			);
+			path = "Base URL Class";
+			sourceTree = "<group>";
+		};
+		F48D793D264561A000CA988C /* Movie Details Page */ = {
+			isa = PBXGroup;
+			children = (
+				F48D793E264561B900CA988C /* MovieDetailsPageViewController.swift */,
+				F48D79402645786300CA988C /* CastCollectionViewCell.swift */,
+				F48D79422645787600CA988C /* CrewCollectionViewCell.swift */,
+				F48D79442645788700CA988C /* SimilarMovieCollectionViewCell.swift */,
+			);
+			path = "Movie Details Page";
+			sourceTree = "<group>";
+		};
+		F48D794C264594FB00CA988C /* Video Page */ = {
+			isa = PBXGroup;
+			children = (
+				F48D794D2645950F00CA988C /* VideoPageViewController.swift */,
+				F48D79502645964700CA988C /* VideoMTableViewCell.swift */,
+			);
+			path = "Video Page";
+			sourceTree = "<group>";
+		};
+		F48D7952264599AE00CA988C /* Video Player */ = {
+			isa = PBXGroup;
+			children = (
+				F48D7953264599C900CA988C /* VideoPlayerViewController.swift */,
+			);
+			path = "Video Player";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F48D791F26442CB600CA988C /* Build configuration list for PBXNativeTarget "HungamaAssignment" */;
 			buildPhases = (
+				3B3F85097FE1398CA7AABF3B /* [CP] Check Pods Manifest.lock */,
 				F48D790726442CB400CA988C /* Sources */,
 				F48D790826442CB400CA988C /* Frameworks */,
 				F48D790926442CB400CA988C /* Resources */,
+				8B75256C710296D52F000F3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +285,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B3F85097FE1398CA7AABF3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HungamaAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B75256C710296D52F000F3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HungamaAssignment/Pods-HungamaAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HungamaAssignment/Pods-HungamaAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HungamaAssignment/Pods-HungamaAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F48D790726442CB400CA988C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F48D792E26442F5B00CA988C /* ServerCallManager.swift in Sources */,
+				F48D79362645578100CA988C /* NowPlayingMovieListTableViewCell.swift in Sources */,
+				F48D793C26455A2A00CA988C /* MovieSynopsis.swift in Sources */,
+				F48D79452645788700CA988C /* SimilarMovieCollectionViewCell.swift in Sources */,
+				F48D792626442CF200CA988C /* DesignCustomButton.swift in Sources */,
+				F48D794926458E1D00CA988C /* SearchedMovieArrayList.swift in Sources */,
+				F48D79342645269900CA988C /* BaseURL.swift in Sources */,
+				F48D79432645787600CA988C /* CrewCollectionViewCell.swift in Sources */,
+				F48D792726442CF200CA988C /* DesignCustomImages.swift in Sources */,
 				F48D791326442CB400CA988C /* ViewController.swift in Sources */,
+				F48D79312645261E00CA988C /* NowPlayingModel.swift in Sources */,
+				F48D794E2645950F00CA988C /* VideoPageViewController.swift in Sources */,
+				F48D792826442CF200CA988C /* DesignCustomView.swift in Sources */,
+				F48D79512645964700CA988C /* VideoMTableViewCell.swift in Sources */,
+				F48D79412645786300CA988C /* CastCollectionViewCell.swift in Sources */,
+				F48D794B2645932200CA988C /* MovieVideoModel.swift in Sources */,
+				F48D793B26455A2A00CA988C /* MovieSimilarMovies.swift in Sources */,
 				F48D790F26442CB400CA988C /* AppDelegate.swift in Sources */,
+				F48D794726458D8D00CA988C /* RecentlySearchedTableViewCell.swift in Sources */,
+				F48D792B26442D4600CA988C /* DashboardPageViewController.swift in Sources */,
+				F48D793A26455A2A00CA988C /* MovieCastCrew.swift in Sources */,
+				F48D7954264599C900CA988C /* VideoPlayerViewController.swift in Sources */,
 				F48D791126442CB400CA988C /* SceneDelegate.swift in Sources */,
+				F48D793F264561B900CA988C /* MovieDetailsPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +499,7 @@
 		};
 		F48D792026442CB600CA988C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1784AB4A4D09E427EBD6656A /* Pods-HungamaAssignment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +519,7 @@
 		};
 		F48D792126442CB600CA988C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03536C334F7B08FC786FAB0 /* Pods-HungamaAssignment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
